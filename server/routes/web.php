@@ -17,3 +17,6 @@ $app->get('/', function () use ($app) {
 $app->get('/home', function () {
     return 'trang home';
 });
+$app->get('/hello', function(){
+    return "Welcome to HN";
+});
