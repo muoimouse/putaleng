@@ -15,8 +15,5 @@ $app->get('/', function () use ($app) {
     return $app->version();
 });
 $app->get('/home', function () {
-    return "xin chao";
-});
-$app->get('user/{id}', function ($id) {
-    return 'User '.$id;
+    return 'trang home';
 });
